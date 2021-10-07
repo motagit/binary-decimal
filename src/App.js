@@ -12,12 +12,17 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <h1>Binary Form</h1>
-        <input value={input} onInput={e => setInput(e.target.value)}/>
-        <button type="button" onClick={() => binToDec()}>Button</button>
-      <h1>Decimal form</h1>
-      <p>{decimal}</p>
+    <div className="container">
+      <div className="app">
+        <h1>Bin2Dec - from github.com/app-ideas</h1>
+        <h2>Binary Form</h2>
+          <input value={input} onInput={e => setInput(e.target.value)}/>
+        <h2>Decimal form</h2>
+          <input value={decimal} onInput={e => setDecimal(e.target.value)}/>
+        <div id="button">
+          <button type="button" onClick={() => binToDec()}>Convert!</button>
+        </div>
+      </div>
     </div>
   );
 }
