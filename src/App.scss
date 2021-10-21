@@ -1,0 +1,74 @@
+$mainColor: #104D8E;
+$subColor: #FF99FF;
+
+@media screen and (max-width: 940px) {
+    .container {
+        max-width:none;
+        margin:0 20px;
+    }
+}
+
+@font-face {
+    font-family: 'Pixellari';
+    src: local('Pixellari'), url(./fonts/Pixellari.woff) format('woff');
+}
+
+* {
+    font-family: Pixellari;
+    background-color: $mainColor;
+}
+
+h1, h2 {
+    color: white;
+}
+
+h1 {
+    font-size: 46px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+input {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    width: 200px;
+    height: 26px;
+    font-size: 20px;
+}
+
+.container { 
+    max-width: 600px; 
+    margin: 0 auto;
+}
+
+.app {
+    margin: 60px 0 0 0;
+}
+
+#button {
+    margin: 20px 0 0 0;
+    
+    button {
+        width: 100px;
+        height: 50px;
+        font-size: 18px;
+        border-radius: 5px;
+        background-color: white;
+    }
+    
+    button:active {
+        background-color: #fcd9fc;
+    }
+}
+
+
+
+
+
+
+
+
+

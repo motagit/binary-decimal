@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import './App.css';
+import './App.scss';
 
 function App() {
   const [input, setInput] = useState(''); 
@@ -21,8 +21,7 @@ function App() {
   return (
     <div className="container">
       <div className="app">
-        <h1>Bin2Dec - app-ideas</h1>
-        
+        <h1>Binary to Decimal Converter!</h1>
           <h2>Binary Form</h2>
             <input type="text" value={input} onChange={e => updateNumber(e)} maxLength="8" pattern="[0-1]+"/>
           <h2>Decimal form</h2>
@@ -30,7 +29,6 @@ function App() {
           <div id="button">
             <button type="button" onClick={() => binToDec()} type="submit">Convert!</button>
           </div>
-      
       </div>
     </div>
   );
