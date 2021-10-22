@@ -1,10 +1,49 @@
-$mainColor: #104D8E;
+$mainColor: #013368;
 $subColor: #FF99FF;
 
-@media screen and (max-width: 940px) {
-    .container {
-        max-width:none;
-        margin:0 20px;
+@media screen and (max-width: 1049px) {
+    .container { 
+        margin: 0 0 0 40px !important;
+        position: static !important;
+        -ms-transform: translate(0, 0) !important;
+        transform: translate(0, 0) !important;
+    }
+    #nyancat {
+        img {
+            position: static !important;
+            width: 70% !important;
+        }
+    }
+}
+
+@media screen and (max-width: 630px) {
+    #nyancat {
+        img {
+            width: 100% !important;
+        }
+    }
+}
+
+@media screen and (max-width: 481px) {
+    h1 {
+        font-size: 52px !important;
+    }
+    input {
+        width: 80% !important;
+        height: 60px !important;
+        font-size: 36px !important;
+    }
+    #button {
+        button {
+            width: 150px !important;
+            height: 80px !important;
+            font-size: 32px !important;
+        }
+    }
+    #nyancat {
+        img {
+            width: 100% !important;
+        }
     }
 }
 
@@ -39,9 +78,18 @@ input {
     font-size: 20px;
 }
 
+input:focus {
+    outline: none;
+    box-shadow: 0 0 10px #719ECE;
+}
+
 .container { 
-    max-width: 600px; 
-    margin: 0 auto;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 75%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .app {
@@ -56,19 +104,25 @@ input {
         height: 50px;
         font-size: 18px;
         border-radius: 5px;
-        background-color: white;
+        color: black;
+        background-color: rgb(231, 231, 231);
+        border: none;
+        border: 5px solid rgb(92, 92, 92);
     }
-    
-    button:active {
-        background-color: #fcd9fc;
+
+    button:hover {
+        background-color: rgb(148, 148, 148);
+        border: 5px solid rgb(92, 92, 92);
+        cursor: pointer;
     }
 }
 
-
-
-
-
-
-
-
-
+#nyancat {
+    img {
+        position: absolute;
+        top: 15%;
+        width: 55%;
+        height: auto;
+        margin-left: -10px;
+    }
+} 
