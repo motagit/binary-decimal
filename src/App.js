@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import { BlinkingCursorTextBuilder } from 'react-animated-text-builders';
 import './App.scss';
 
 function App() {
@@ -22,7 +23,16 @@ function App() {
     <>
     <div className="container">
       <div className="app">
-        <h1>Binary to Decimal Converter</h1>
+        <BlinkingCursorTextBuilder
+        class="title"
+        textStyle={{fontWeight :"bold", fontSize : "42px", color: "white"}}
+        timeout={30}
+        cursorComponent={<div class="titleCursor" 
+        style={{color : "#FF99FF",
+                transform: "rotate(-10deg)",
+                marginLeft: "240px",
+                fontSize: "24px"}}>Converter!</div>}
+        blinkTimeAfterFinish={-1}>Binary to Decimal</BlinkingCursorTextBuilder>
           <h2>Binary Form</h2>
             <input type="text" value={input} onChange={e => updateNumber(e)} maxLength="8" pattern="[0-1]+"/>
           <h2>Decimal form</h2>
