@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/binary-decimal/static/css/main.846be23b.chunk.css",
+    "main.js": "/binary-decimal/static/js/main.564b4e47.chunk.js",
+    "main.js.map": "/binary-decimal/static/js/main.564b4e47.chunk.js.map",
+    "runtime-main.js": "/binary-decimal/static/js/runtime-main.6410bae8.js",
+    "runtime-main.js.map": "/binary-decimal/static/js/runtime-main.6410bae8.js.map",
+    "static/css/2.169397c9.chunk.css": "/binary-decimal/static/css/2.169397c9.chunk.css",
+    "static/js/2.21a6207b.chunk.js": "/binary-decimal/static/js/2.21a6207b.chunk.js",
+    "static/js/2.21a6207b.chunk.js.map": "/binary-decimal/static/js/2.21a6207b.chunk.js.map",
+    "index.html": "/binary-decimal/index.html",
+    "static/css/2.169397c9.chunk.css.map": "/binary-decimal/static/css/2.169397c9.chunk.css.map",
+    "static/css/main.846be23b.chunk.css.map": "/binary-decimal/static/css/main.846be23b.chunk.css.map",
+    "static/js/2.21a6207b.chunk.js.LICENSE.txt": "/binary-decimal/static/js/2.21a6207b.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/binary-decimal/static/media/Pixellari.f0efd043.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6410bae8.js",
+    "static/css/2.169397c9.chunk.css",
+    "static/js/2.21a6207b.chunk.js",
+    "static/css/main.846be23b.chunk.css",
+    "static/js/main.564b4e47.chunk.js"
+  ]
+}
