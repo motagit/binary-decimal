@@ -1,6 +1,6 @@
 # Bin2Dec 😾🌈
 > Beginner project based in Bin2Dec from [_app-ideas_](https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Bin2Dec-App.md).
-> Live demo [_here_](https://www.example.com).
+> Live demo [_here_](https://motagit.github.io/binary-decimal/).
 
 
 
